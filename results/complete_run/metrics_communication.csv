@@ -1,0 +1,11 @@
+algorithm,signature_size,public_key_size,private_key_size,tag_size,ciphertext_size,total_message_size,aggregate_signature_size,compression_ratio,nonce_size,proof_of_possession_size,message_commitment_size,metadata_per_round
+BLS,96,48,0,96,0,0,96,1.0,16,0,32,96
+LHS,32,32,0,32,0,0,32,1.0,16,0,32,80
+Waters,32,32,0,32,0,0,32,1.0,16,0,32,80
+BonehBoyen,32,32,0,32,0,0,32,1.0,16,0,32,80
+RSA,256,256,0,256,0,0,256,1.0,16,0,32,304
+EdDSA,64,32,0,64,0,0,64,1.0,16,0,32,80
+Additive_HMAC,32,0,32,32,0,0,32,1.0,16,0,32,48
+Linear_HMAC,32,0,32,32,0,0,32,1.0,16,0,32,48
+Polynomial_HMAC,32,0,32,32,0,0,32,1.0,16,0,32,48
+Lattice_HMAC,32,0,256,32,0,0,32,1.0,16,0,32,48
